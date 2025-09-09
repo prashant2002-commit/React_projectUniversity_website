@@ -1,12 +1,32 @@
-# React + Vite
+# First React App University Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```🌐 Live Website: react-website-pras.netlify.app```
 
-Currently, two official plugins are available:
+A responsive University Website built with React.
+It includes a contact form powered by Web3Forms API
+ to send messages directly to email.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## Expanding the ESLint configuration
+✅ Modern & responsive UI for all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Built using React
+
+✅ Contact form with email delivery via Web3Forms API
+
+✅ API keys secured using .env file
+
+✅ Easy to deploy on Netlify / Vercel / GitHub Pages
+
+```university-website/
+│── src/assets                 # React components, pages, styles, assets
+│── .env                       # API keys & secrets (not pushed to GitHub)
+│── package.json               # Dependencies & scripts
+│── README.md                  # Documentation```
+
+Create a .env file in the project root and add your Web3Forms API key:
+
+```VITE_API_KEY=your_api_key_here
+const apiKey = import.meta.env.VITE_API_KEY;```
+
+
